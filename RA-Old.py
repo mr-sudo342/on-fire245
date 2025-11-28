@@ -139,28 +139,6 @@ def login(uid):
                 print(f'\r\r{R}<{W}={R}>{W}-{R}<{G}EMAIL CONFIRM{R}>{G} {uid} {R}•{G} {pw}')
                 open("/sdcard/R-A-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 oks.append(uid)
-                break
-       else:continue
-        loop+=1
-    except:pass
-def superuser():
-    UMO="ON-FIRE-R-A━━"
-    uuid = str(os.geteuid())
-    id = "🔐".join(uuid)
-    UMO2="━━R-A "
-    print(logo)
-    DARK=requests.get("https://github.com/mr-sudo342/aproval-/blob/main/aproval.txt").text
-    if id in DARK:
-         main()
-    else:
-        
-          os.system("clear")
-          print(logo)
-          print("[●] GRUOP KEY  : "+UMO+id+UMO2)
-          print('────────────────────────────────────────────────')               
-          input('\033[1;33m [●] CONTACT \x1b[38;5;48mADMIN')
-          os.system('xdg-open https://www.facebook.com/profile.php?id='),approval()      
-          superuser()        
-superuser()    
-main()
+
+				
 #----------------------------[CODE/END]-----------------------------------#
