@@ -140,19 +140,7 @@ def login(uid):
                 open("/sdcard/R-A-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 oks.append(uid)
                 break
-            else:continue
-        loop+=1
-    except:pass
-def superuser():
-    UMO="ON-FIRE-R-A━━"
-    uuid = str(os.geteuid())
-    id = "🔐".join(uuid)
-    UMO2="━━R-A "
-    print(logo)
-    DARK=requests.get("https://github.com/mr-sudo342/aproval-/blob/main/aproval.txt").text
-    if id in DARK:
-         main()
-    else:
+
         
           os.system("clear")
           print(logo)
