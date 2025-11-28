@@ -63,7 +63,7 @@ def ua():
     return xx
 #----------------------------[LOGO]-----------------------------------#
 logo = f"""
-{W}                          /{G}1.0
+{W}                          /{G}
 {R}────────────────────────────────────────────────
 {xd} OWNER    {xdxx} ON-FIRE-R-A
 {xd} TOOLTYPE {xdxx} OLD{R}[{W}ALL-COUNTRY{R}]{G}CLONE
